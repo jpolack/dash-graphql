@@ -1,0 +1,8 @@
+type Query {
+    allPlugins: [Plugin]
+}
+
+type Plugin{
+    name: String
+    type: String
+}
